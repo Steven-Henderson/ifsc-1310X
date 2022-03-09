@@ -7,6 +7,12 @@ Color Scheme
 1CB881
 */
 
+
+.container{
+    width:80vw;
+    margin:40px auto;
+}
+
 html {
     box-sizing: border-box;
 }
