@@ -66,3 +66,69 @@ header.primary nav ul li a{
     padding: 8px 16px;
     
 }
+
+#content {
+    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+}
+
+article.post {
+    border: 2px dotted #0a0a0a;
+    width: 30%;
+}
+
+footer.post-meta a{
+    text-decoration: none;
+    color: #000000;
+}
+
+footer.post-meta a :hover{
+    color: #5A5A5A;
+    text-decoration:underline;
+}
+
+article.post h2{
+    text-align: center;
+    border-top: 2px dotted #5A5A5A;
+    border-bottom: 2px dotted#5A5A5A;
+}
+
+article.post h2 a{
+    color: #000000;
+    text-decoration: none;
+}
+
+article.post h2 :hover{
+    color: #5A5A5A;
+    text-decoration:underline;
+}
+img{
+    float:left;
+    margin:1rem;
+}
+p{
+    clear:both;
+    text-align: justify;
+}
+h1, h2, h3, h4, h5, h6{
+    clear:both;
+    text-align: center;
+    display:block;
+}
+
+aside, aside div{
+    width:100%;
+    background-color: #313131;
+    color:#ffffff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+aside a{
+    text-decoration: none;
+}
+
+aside footer{
+    display:none;
+}
